@@ -6,7 +6,7 @@ export const products = [
         price: 4500,
         views: 0,
         sold: 0,
-        reviews: [{ rating: 4, comment: "Very comfortable and stylish!" }],
+        reviews: [{ rating: 4, comment: "Very comfortable and stylish!" } , { rating: 1, comment: "Bad quality!" } , { rating : 5 , comment: "highly recomend"}],
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const products = [
         price: 1500,
         views: 0,
         sold: 0,
-        reviews: [],
+        reviews: [{ rating: 4, comment: "Very comfortable and stylish!" } , { rating: 1, comment: "Bad quality!" } , { rating : 5 , comment: "highly recomend"}],
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const products = [
         price: 7500,
         views: 0,
         sold: 0,
-        reviews: [{ rating: 5, comment: "Beautiful embroidery, perfect fit!" }],
+        reviews: [{ rating: 4, comment: "Very comfortable and stylish!" } , { rating: 1, comment: "Bad quality!" } , { rating : 5 , comment: "highly recomend"}],
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const products = [
         price: 5500,
         views: 0,
         sold: 0,
-        reviews: [],
+        reviews: [{ rating: 4, comment: "Very comfortable and stylish!" } , { rating: 1, comment: "Bad quality!" } , { rating : 5 , comment: "highly recomend"}],
     },
     {
         id: 5,
@@ -42,6 +42,6 @@ export const products = [
         price: 3500,
         views: 0,
         sold: 0,
-        reviews: [{ rating: 3, comment: "Good quality, but sizing is tricky" }],
+        reviews: [{ rating: 4, comment: "Very comfortable and stylish!" } , { rating: 1, comment: "Bad quality!" } , { rating : 5 , comment: "highly recomend"}],
     },
 ];

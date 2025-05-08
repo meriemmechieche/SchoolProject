@@ -29,14 +29,15 @@ const ProductDetail = () => {
     return <div className="container mx-auto p-6">Product not found</div>;
 
   return (
-    <div className="container mx-auto p-6">
-      <div className="flex flex-col lg:flex-row gap-8 bg-white rounded-lg shadow-lg p-6 ">
+    <>
+    <div className="p-6 h-[80vh] flex items-center justify-center w-full">
+      <div className="flex flex-col lg:flex-row gap-8 w-[70%] bg-white rounded-lg shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] p-6 ">
         <img
           src={product.image}
           alt={product.name}
-          className="w-full lg:w-1/2 h-96 object-cover rounded-lg"
+          className="w-full lg:w-1/2 h-[70vh] object-cover rounded-lg"
         />
-        <div className="flex-1 flex flex-col justify-between py-6">
+        <div className="flex-1 flex flex-col justify-between items-start pt-[3rem] pb-[7rem]">
           <h1 className="text-3xl text-black font-[500]">{product.name}</h1>
           <p className="text-2xl text-black font-[500] mt-2">
             {product.price} DZD
@@ -68,6 +69,8 @@ const ProductDetail = () => {
         </div>
       </div>
     </div>
+    </>
+    
   );
 };
 
